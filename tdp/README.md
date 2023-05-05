@@ -6,7 +6,7 @@ The version 6.0.0-0.0-SNAPSHOT of Phoenix QueryServer is based on the `6.0.0` ta
 # Build a queryserver with TDP versions
 
 ```
-mvn clean package -Dpackage.phoenix.client -Dphoenix.version=5.1.3-0.0-SNAPSHOT -Dphoenix.client.artifactid=phoenix-client-hbase-2.1 -pl '!phoenix-queryserver-it' -DskipTests
+mvn clean package -Dpackage.phoenix.client -Dphoenix.version=5.1.2-1.0 -Dphoenix.client.artifactid=phoenix-client-hbase-2.1 -pl '!phoenix-queryserver-it' -DskipTests
 ```
 
 
