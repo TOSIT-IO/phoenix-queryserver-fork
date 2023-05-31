@@ -1,16 +1,16 @@
 # TDP Phoenix QueryServer Notes
 
-The version 6.0.0-0.0-SNAPSHOT of Phoenix QueryServer is based on the `6.0.0` tag of the Apache [repository](https://github.com/apache/phoenix-queryserver/tree/6.0.0).
+The version 6.0.0-0.0 of Phoenix QueryServer is based on the `6.0.0` tag of the Apache [repository](https://github.com/apache/phoenix-queryserver/tree/6.0.0).
 
 
 # Build a queryserver with TDP versions
 
 ```
-mvn clean package -Dpackage.phoenix.client -Dphoenix.version=5.1.2-1.0 -Dphoenix.client.artifactid=phoenix-client-hbase-2.1 -pl '!phoenix-queryserver-it' -DskipTests
+mvn clean package -Dpackage.phoenix.client -pl '!phoenix-queryserver-it' -DskipTests
 ```
 
 
-This command generates a `tar.gz` file of the release at `phoenix-queryserver-assembly/target/phoenix-queryserver-6.0.0-0.0-SNAPSHOT-bin.tar.gz`
+This command generates a `tar.gz` file of the release at `phoenix-queryserver-assembly/target/phoenix-queryserver-6.0.0-0.0-bin.tar.gz`
 
 ## Testing parameters
 
